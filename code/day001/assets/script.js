@@ -34,10 +34,6 @@
       while (numbers.length > 0) {
         var value = parseInt(numbers.pop());
         var operator = operators.pop();
-        // var next = parseInt(numbers.pop());
-        // next = isInt(next) ? next : 0;
-
-        // console.log(value, operator, next);
 
         switch (operator) {
           case '+':
