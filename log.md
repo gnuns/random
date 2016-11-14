@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 1: November 13, 2016
+### Day 1: November 14, 2016
 
 **Today's Progress**: Worked on a simple calculator app.
 
