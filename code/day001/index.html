@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Day 001 - hezag's #100DaysOfCode</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="screen">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css" media="screen">
+  <link rel="stylesheet" href="assets/style.css" media="screen">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" charset="utf-8"></script>
+  <script src="http://code.getmdl.io/1.1.1/material.min.js" charset="utf-8"></script>
+  <script src="assets/script.js" charset="utf-8"></script>
+</head>
+<body>
+  <div class="container">
+
+  <div class="mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text" id="display">
+      </h2>
+    </div>
+    <div class="mdl-card__supporting-text calc">
+      <div class="controllers">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="calculator.clear(); return false">
+          C
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="calculator.addElement('/'); return false">
+          &divide;
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="calculator.addElement('*'); return false">
+          &times;
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="calculator.addElement('-'); return false">
+          &minus;
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="calculator.addElement('+'); return false">
+          &plus;
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="calculator.calculate(); return false">
+          &equals;
+        </button>
+      </div>
+      <div class="numbers">
+       <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(7); return false">
+          7
+        </button>
+       <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(8); return false">
+          8
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(9); return false">
+          9
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(4); return false">
+          4
+        </button>
+       <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(5); return false">
+          5
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(6); return false">
+          6
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(1); return false">
+          1
+        </button>
+       <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(2); return false">
+          2
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(3); return false">
+          3
+        </button>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="calculator.addElement(0); return false">
+          0
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

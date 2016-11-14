@@ -1,0 +1,28 @@
+.container {
+  width: 320px;
+  margin: 15px auto;
+}
+.container .mdl-card {
+  width: 100%;
+}
+.container .mdl-card .mdl-card__title {
+  color: #fff;
+  background-color: rgba(233, 30, 99, 0.85);
+  height: 65px;
+  width: 100%;
+  display: table;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.container .mdl-card .calc .controllers, .container .mdl-card .calc .numbers {
+  width: 210px;
+  margin: auto;
+  display: block;
+  padding: 10px;
+}
+.container .mdl-card .calc button {
+  margin: 5px;
+}
+.container .mdl-card .calc .numbers button {
+  color: rgba(0, 0, 0, 0.75);
+}
