@@ -10,49 +10,49 @@
     };
 
     function addElement(element) {
-      var previous;
-      previous = typeof expression[expression.length - 1] === 'undefined';
-      previous = previous ? '' : expression[expression.length - 1];
+      var prev = expression.length > 0 ? expression[expression.length - 1] : '';
 
       // if previous element is empty or current and previous elements
       // are both operators, don't add the element
-      if (isInt(previous) || isInt(element)) {
+      if (isInt(prev) || isInt(element) || (element == '-' && prev != '-')) {
         expression.push(element);
         refreshDisplay();
       }
     }
 
     function calculate() {
-      var processed = 0;
+      var processed = [];
+      expression.unshift(0); // workaround
       // expression to string
       expression = expression.join('');
 
       var numbers = expression.match(/(?:[\d\.]+)+/g);
       var operators = expression.match(/[-\+\*\/]+/g);
 
-      processed = parseInt(numbers.pop());
+      processed.push(parseInt(numbers.shift()));
       while (numbers.length > 0) {
-        var value = parseInt(numbers.pop());
-        var operator = operators.pop();
+        var value = parseInt(numbers.shift());
+        var operator = operators.shift();
 
         switch (operator) {
           case '+':
-            processed += value;
+            processed.push(value);
             break;
           case '-':
-            processed -= value;
+            processed.push(value * -1);
             break;
           case '*':
-            processed *= value;
+            processed.push(processed.pop() * value);
             break;
           case '/':
-            processed = value / processed;
+            processed.push(processed.pop() / value);
             break;
           default:
             break;
         }
       }
-      expression = [processed];
+      expression = processed.reduce((res, el) => res + el);
+      expression = [expression];
       refreshDisplay();
     }
 
