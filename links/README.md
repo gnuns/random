@@ -11,6 +11,8 @@
 - [ ] [Build your own Lisp](http://www.buildyourownlisp.com/)
 - [ ] [Ember 2 Tutorial - From beginer to advance](http://yoember.com/)
 - [ ] [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+- [ ] [Coding Interview University](https://github.com/jwasham/coding-interview-university)
+- [ ] [Low level programming university](https://github.com/gurugio/lowlevelprogramming-university)
 
 ## Articles
 - [ ] [The programming talent myth](https://lwn.net/Articles/641779/)
