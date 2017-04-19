@@ -10,6 +10,7 @@
 - [ ] [Angular 2 WhatsApp clone with Meteor & Ionic](https://angular-meteor.com/tutorials/whatsapp2/)
 - [ ] [Build your own Lisp](http://www.buildyourownlisp.com/)
 - [ ] [Ember 2 Tutorial - From beginer to advance](http://yoember.com/)
+- [ ] [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 
 ## Articles
 - [ ] [The programming talent myth](https://lwn.net/Articles/641779/)
@@ -22,3 +23,4 @@
 ## Extra
 - [musicforprogramming](https://musicforprogramming.net/?one)
 - [Ask HN: What are some books where the reader learns by building one project?](https://news.ycombinator.com/item?id=13660086)
+- [OpenStax](https://openstax.org/subjects) - Open and Free books
