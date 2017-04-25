@@ -37,3 +37,4 @@
 - [Ask HN: What are some books where the reader learns by building one project?](https://news.ycombinator.com/item?id=13660086)
 - [OpenStax](https://openstax.org/subjects) - Open and Free books
 - [Amber Smalltalk](http://www.amber-lang.net/)
+- [YOU DON'T KNOW X](https://github.com/ythecombinator/You-Dont-Know-X#javascript)
