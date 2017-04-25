@@ -13,6 +13,13 @@
 - [ ] [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 - [ ] [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 - [ ] [Low level programming university](https://github.com/gurugio/lowlevelprogramming-university)
+- [ ] [Monads for functional programming](http://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)
+- [ ] [Real World Haskell](http://book.realworldhaskell.org/read/)
+- [ ] [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/)
+- [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire (1991)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.125)
+- [ ] [Introduction to Functional Programming](https://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891)
+- [ ] [Bret Victor - The Future of Programming](https://vimeo.com/71278954) | [Reference](http://worrydream.com/dbx/)
+- [ ] [Prolog programming: a do-it-yourself course for beginners](http://cs.union.edu/~striegnk/courses/esslli04prolog/)
 
 ## Articles
 - [ ] [The programming talent myth](https://lwn.net/Articles/641779/)
