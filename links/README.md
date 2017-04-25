@@ -18,18 +18,22 @@
 - [ ] [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/)
 - [ ] [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire (1991)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.125)
 - [ ] [Introduction to Functional Programming](https://www.amazon.com/Introduction-Functional-Programming-International-Computing/dp/0134841891)
-- [ ] [Bret Victor - The Future of Programming](https://vimeo.com/71278954) | [Reference](http://worrydream.com/dbx/)
 - [ ] [Prolog programming: a do-it-yourself course for beginners](http://cs.union.edu/~striegnk/courses/esslli04prolog/)
+- [ ] [PureScript by Example](https://leanpub.com/purescript/read)
 
 ## Articles
 - [ ] [The programming talent myth](https://lwn.net/Articles/641779/)
 - [ ] [How I got my dream job in the tech industry without a CS degree](https://billmei.net/blog/silicon-valley-job-search)
 - [ ] [Security 101 for SaaS startups](https://github.com/forter/security-101-for-saas-startups)
+- [ ] [Are there any programming concepts not yet implemented? What are they?](https://www.quora.com/Are-there-any-programming-concepts-not-yet-implemented-What-are-they)
+- [ ] [Where's the best place to learn Smalltalk online?](https://www.quora.com/Wheres-the-best-place-to-learn-Smalltalk-online)
+- [ ] [On Smalltalk browser](http://onsmalltalk.com/on-the-smalltalk-browser)
 
 ## Talks
 - [ ] [Programming is Forgetting: Toward a New Hacker Ethic](http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/)
-
+- [ ] [Bret Victor - The Future of Programming](https://vimeo.com/71278954) | [Reference](http://worrydream.com/dbx/)
 ## Extra
 - [musicforprogramming](https://musicforprogramming.net/?one)
 - [Ask HN: What are some books where the reader learns by building one project?](https://news.ycombinator.com/item?id=13660086)
 - [OpenStax](https://openstax.org/subjects) - Open and Free books
+- [Amber Smalltalk](http://www.amber-lang.net/)
