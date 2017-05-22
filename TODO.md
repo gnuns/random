@@ -1,1 +1,1 @@
-Fix PPC-CE API
+Fix PCT-CE API (posters)
